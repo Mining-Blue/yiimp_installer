@@ -1,23 +1,15 @@
-# Ubuntu 22.04 Yiimp install script v0.3a (April, 2024)
+1. sudo apt-get update && apt-get upgrade -y
+2. reboot
+3. adduser yiimp
+4. adduser yiimp sudo
+5. su - yiimp
+6. sudo apt-get install software-properties-common -y
+7. sudo add-apt-repository ppa:ondrej/php
+8. sudo apt-get install git -y
+9. git clone https://github.com/Mining-Blue/yiimp_installer.git
+10. bash install.sh
 
-## This repo is intended to be used with the Udemy course on how to build your own cryptocurrency mining pool, located at https://www.udemy.com/course/how-to-build-your-own-mining-pool
 
-## Install script for yiimp on Ubuntu Server 22.04
-USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 22.04 only.
-Will install PHP 8.2 and Yii Framework 1.1.29, with a customised Yiimp!
-- Do not run as root.
-- Usage: bash install.sh
-
-# What's new in v0.3a
-- Install script prompts language minor update
-  
-## v0.3 details
-- MOTD
-
-## v0.2 details
-- New colour themes for Yiimp (24 'themes' to choose from)
-
-## v0.1 details
 - Ubuntu 22.04 support
 - PHP 8.2
 - Yii Framework 1.1.29
